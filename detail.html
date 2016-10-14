@@ -69,7 +69,24 @@
 </header>
 <main>
     <div class="container">
-
+        <ol class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+           <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+               <a itemprop="item" href="https://Wordplease.com">
+                   <span itemprop="name">Inicio</span>
+               </a>
+               <meta itemprop="position" content="1" />
+           </li>
+           <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+               <a itemprop="item" href="https://Wordplease.com/category/Sports">
+                   <span itemprop="name">Sports</span>
+               </a>
+               <meta itemprop="position" content="2" />
+           </li>
+           <li class="active" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+               <span itemprop="name">Article</span>
+               <meta itemprop="position" content="3" />
+           </li>
+        </ol>
         <article class="article single">
             <div class="row">
                 <div class="col-xs-12">
